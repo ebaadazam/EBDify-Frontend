@@ -17,7 +17,7 @@ const colors = ["bg-banner-color1", "bg-banner-color2", "bg-banner-color3"];
 
 const HeroBanner = () => {
     return (
-        <div className='py-2 rounded-md'>
+        <div className='py-2 rounded-md bg-gray-800'>
             <Swiper
                 grabCursor = {true}
                 autoplay = {{

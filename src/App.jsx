@@ -13,11 +13,14 @@ import PrivateRoute from './components/PrivateRoute'
 import Register from './components/auth/Register'
 import Checkout from './components/checkout/Checkout'
 import PaymentConfirmation from './components/checkout/PaymentConfirmation'
+import Footer from './components/home/Footer'
+import ScrollToTop from './components/home/ScrollToTop'
 
 function App() {
   return (
     <React.Fragment>
       <Router>
+        <ScrollToTop/>
         <Navbar />
         <Routes>
           <Route path='/' element={ <Home />}/>

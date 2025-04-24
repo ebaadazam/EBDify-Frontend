@@ -7,6 +7,7 @@ import Filter from "./Filter";
 import useProductFilter from "../../hooks/useProductFilter";
 import Loader from "../shared/Loader";
 import Paginations from "../shared/Paginations";
+import Footer from "../home/Footer";
 
 const Products = () => {
     const { isLoading, errorMessage } = useSelector(
@@ -23,6 +24,7 @@ const Products = () => {
     }, [dispatch]);
 
     return (
+        <div>
         <div className="lg:px-14 sm:px-8 px-4 py-14 2xl:w-[90%] 2xl:mx-auto">
             <Filter categories={categories ? categories : []}/>
             {isLoading ? (
@@ -48,6 +50,8 @@ const Products = () => {
                     </div>
                 </div>
             )}
+        </div>
+        <Footer/>
         </div>
     )
 }

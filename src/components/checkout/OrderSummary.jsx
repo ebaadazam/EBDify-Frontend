@@ -27,7 +27,7 @@ const OrderSummary = ({ totalPrice, cart, address, paymentMethod}) => {
             </p>
             <p>
                 <strong>Pincode: </strong>
-                {address?.pincode}
+                {address?.pinCode}
             </p>
             <p>
                 <strong>Country: </strong>

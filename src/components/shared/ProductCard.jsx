@@ -35,7 +35,7 @@ const ProductCard = ({
     };
 
     return (
-        <div className="border rounded-lg shadow-xl overflow-hidden transition-shadow duration-300">
+        <div className="border-0 shadow-lg rounded-lg overflow-hidden transition-shadow duration-300">
             <div onClick={() => {
                 handleProductView({
                     id: productId,
@@ -69,7 +69,7 @@ const ProductCard = ({
                 })
             }}
                     className="text-lg font-semibold mb-2 cursor-pointer">
-                    {truncateText(productName, 50)}
+                    {truncateText(productName, 30)}
                 </h2>
                 
                 <div className="min-h-20 max-h-20">

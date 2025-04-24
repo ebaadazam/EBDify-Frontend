@@ -41,7 +41,7 @@ const LogIn = () => {
             <hr className="mt-2 mb-5 text-black" />
             <div className="flex flex-col gap-3">
                 <InputField
-                    label="UserName"
+                    label="Username"
                     required
                     id="username"
                     type="text"
@@ -65,7 +65,7 @@ const LogIn = () => {
 
             <button
                 disabled={loader}
-                className="bg-button-gradient flex gap-2 items-center justify-center font-semibold text-white w-full py-2 hover:text-slate-400 transition-colors duration-100 rounded-sm my-3"
+                className="bg-button-gradient flex gap-2 items-center justify-center font-semibold text-white bg-gray-800 w-full py-2 hover:text-slate-400 transition-colors duration-100 rounded-sm my-3"
                 type="submit">
                 {loader ? (
                     <>

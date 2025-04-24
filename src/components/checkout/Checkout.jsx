@@ -105,7 +105,7 @@ const Checkout = () => {
                             )
                         )
                     }
-                    className={`bg-customBlue font-semibold px-6 h-10 rounded-md text-white
+                    className={`bg-gray-800 font-semibold px-6 h-10 rounded-md text-white
                        ${
                         errorMessage ||
                         (activeStep === 0 && !selectedUserCheckoutAddress) ||
