@@ -46,7 +46,7 @@ const About = () => {
                 <div className="w-full lg:w-1/2 space-y-6">
                     <h2 className="text-3xl font-bold text-blue-400">Our Story</h2>
                     <p className="text-lg text-gray-300">
-                        Founded in 2020, we started with a simple mission: to make cutting-edge technology accessible to everyone. 
+                        Founded in 2025, we started with a simple mission: to make cutting-edge technology accessible to everyone. 
                         What began as a small online store has grown into a trusted destination for tech enthusiasts worldwide.
                     </p>
                     <p className="text-lg text-gray-300">
